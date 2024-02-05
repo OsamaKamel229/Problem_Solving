@@ -1,4 +1,6 @@
-package LinkedList;
+package LinkedList._1_CreateLinkedListFromArray;
+
+import LinkedList.Node;
 
 public class Create_LinkedList_From_Array {
 

@@ -5,8 +5,7 @@
     Node: is the smallest unit (Object) to build a LinkedList.
     This Object Contains a Value and Pointer.
     Value: could be String, Integer, Double, or any User Define Object Like Employee, Admin, Product ...
-    Pointer: of Type Node to lead us to the physical address of the next node in memory,
-    to make us be able to traverse this linkedList.
+    Pointer: of Type Node to lead us to the physical address of the next node in memory.
 
     Ex:
       node1 ( 1, -> (node2 (2, ->  (node3 (3, -> (node4 (4, ->  (node5 (5, ->  (node6 (6, -> null )))))))))))
