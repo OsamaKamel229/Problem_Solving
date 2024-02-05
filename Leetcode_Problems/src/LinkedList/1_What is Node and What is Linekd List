@@ -1,0 +1,49 @@
+   Created By Osama Kamel.
+
+    What is Node?
+
+    Node: is the smallest unit (Object) to build a LinkedList.
+    This Object Contains a Value and Pointer.
+    Value: could be String, Integer, Double, or any User Define Object Like Employee, Admin, Product ...
+    Pointer: of Type Node to lead us to the physical address of the next node in memory,
+    to make us be able to traverse this linkedList.
+
+    Ex:
+      node1 ( 1, -> (node2 (2, ->  (node3 (3, -> (node4 (4, ->  (node5 (5, ->  (node6 (6, -> null )))))))))))
+
+      node1 ( 1,    -> ( node2 (2, ->  node3 (3, -> node4 (4, ->  node5 (5, ->  node6 (6, -> null )))))))))))
+      ^       ^     ^
+      |       |     |
+    nodeObj  val   pointerNextNode
+
+    Note: Check The Class Node in this package.
+
+    --------------------------------------------------------------------------------------------------------------------
+
+    What is LinkedList Data Structure?
+
+    LinkedList: it is a chain of Nodes. if I have the first Node in this chain I can access all other nodes.
+    or if I have a pointer to node inside this chain I can access this node and all other nodes after that one.
+    and we usually have pointer called head that points to the first Node in this chain.
+
+    Ex:
+        node1 ( 1, -> (node2 (2, ->  (node3 (3, -> (node4 (4, ->  (node5 (5, ->  (node6 (6, -> null )))))))))))
+        ^
+        |
+       head
+
+    for simplicity we can use this pattern to draw the linkedList.
+        1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null       or     A -> b -> c -> D -> E -> f -> g -> H -> null
+        ^                                               ^
+        |                                               |
+       head                                           head
+
+    from this definition:
+    1- linked list is not zero-based index Data Structure, it is Node based Data Structure.
+    2- these objects (Nodes) are not stored in one memory location or Consecutive memory locations.
+    3- once we have the head pointer of the LinkedList (a pointer to the first Node in this LinkedList)
+       we can start traversing this LinkedList to preform any business logic.
+
+    --------------------------------------------------------------------------------------------------------------------
+
+
