@@ -27,9 +27,27 @@ public class _1_ReverseLinkedList_Leetcode_206_Easy {
 
     /*
     Problem URL: https://leetcode.com/problems/reverse-linked-list/description/
+    Given the head of a singly linked list, reverse the list, and return the reversed list.
 
+    Example 1:
+    Input: head = [1,2,3,4,5]
+    Output: [5,4,3,2,1]
+
+    Example 2:
+    Input: head = [1,2]
+    Output: [2,1]
+
+    Example 3:
+    Input: head = []
+    Output: []
+
+    Constraints:
+    The number of nodes in the list is the range [0, 5000].
+    -5000 <= Node.val <= 5000
+
+    Solution: -
     To reverse a linked list we have to follow some pattern.
-        ^
+
     Ex:
         A -> B -> C -> D -> E -> F -> G -> H -> Null
         ^
