@@ -5,3 +5,4 @@ This Repo Used for Leetcode Problems.
 - DoubleLinkedList Problrms.
 - Binary Search Tree Problems.
 - Binary Tree Problems.
+- Trie
