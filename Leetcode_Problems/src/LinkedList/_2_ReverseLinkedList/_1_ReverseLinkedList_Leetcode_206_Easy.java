@@ -45,7 +45,7 @@ public class _1_ReverseLinkedList_Leetcode_206_Easy {
                                                    |
                                                   head
       to implements this algorithm : -
-      1- we need to define new node called beforeHeadNode and make it pointing to the head node.
+      1- we need to define new node called beforeHeadNode and make it pointing to the null.
       2- we need to define new node called afterHeadNode and make it pointing to the head next node.
 
        null      A -> B -> C -> D -> E -> F -> G -> H -> Null
