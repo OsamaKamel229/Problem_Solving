@@ -2,11 +2,12 @@ package LinkedList._2_ReverseLinkedList;
 
 import LinkedList.LinkedListForTest;
 import LinkedList.Node;
+import LinkedList._1_CreateLinkedListFromArray.Create_LinkedList_From_Array;
 
 public class _2_ReverseLinkedList_II_Leetcode_92_Medium {
 
-    public static <T> Node<T> reverseBetween(Node<T> head, T left, T right) {
-        if (head == null || left.equals(right)) {
+    public <T> Node<T> reverseBetweenTwoIndex (Node<T> head, int left, int right){
+        if(head == null || left == right){
             return head;
         }
 
@@ -14,29 +15,29 @@ public class _2_ReverseLinkedList_II_Leetcode_92_Medium {
         dummy.setNext(head);
         Node<T> beforeLeft = dummy;
 
-        // Find the node just before the left target
-        while (beforeLeft.getNext() != null && !beforeLeft.getNext().getValue().equals(left)) {
+        for (int i = 0; i < left; i++) {
             beforeLeft = beforeLeft.getNext();
         }
 
         Node<T> leftNode = beforeLeft.getNext();
         Node<T> afterLeft = leftNode.getNext();
 
-        // Reverse the sublist
-        while (afterLeft != null && !beforeLeft.getNext().getValue().equals(right)) {
+        int steps = right - left;
+        while (afterLeft != null && steps > 0){
             leftNode.setNext(afterLeft.getNext());
             afterLeft.setNext(beforeLeft.getNext());
             beforeLeft.setNext(afterLeft);
-            afterLeft = leftNode.getNext();  // Update afterLeft pointer correctly
+            afterLeft = leftNode.getNext();
+            steps--;
         }
 
         return dummy.getNext();
     }
-    public static void main(String[] args) {
-        LinkedListForTest linkedListForTest = new LinkedListForTest();
-        _2_ReverseLinkedList_II_Leetcode_92_Medium obj = new _2_ReverseLinkedList_II_Leetcode_92_Medium();
 
-        System.out.println(obj.reverseBetween(linkedListForTest.getHead(), "C","F"));
+    public static void main(String[] args) {
+        LinkedListForTest listForTest = new LinkedListForTest();
+        _2_ReverseLinkedList_II_Leetcode_92_Medium obj = new _2_ReverseLinkedList_II_Leetcode_92_Medium();
+        System.out.println(obj.reverseBetweenTwoIndex(listForTest.getHead(), 3, 7));
     }
 }
 

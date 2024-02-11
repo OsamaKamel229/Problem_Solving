@@ -4,7 +4,7 @@
 
     Node: is the smallest unit (Object) to build a LinkedList.
     This Object Contains a Value and Pointer.
-    Value: could be String, Integer, Double, or any User Define Object Like Employee, Admin, Product ...
+    Value: could be String, Integer, Double, or any User Define Object Like Employee, Admin, Product (Generic)...
     Pointer: of Type Node to lead us to the physical address of the next node in memory.
 
     Ex:
@@ -44,5 +44,14 @@
        we can start traversing this LinkedList to preform any business logic.
 
     --------------------------------------------------------------------------------------------------------------------
+
+    1- create Generic class Node.
+    2- create Generic class LinkedList.
+    3- create Generic LinkedList object from Generic Array object.
+    4- reverse an inter LinkedList.                                     | Easy - 206
+    5- reverse part of LinkedList based on the value of the node.       | Medium
+    5- reverse part of LinkedList based on the index of the node.       | Medium - 92
+    6- swap every two nodes (pairs) in linkedList.                      | Medium - 24
+    7- Reverse Nodes in k-Group                                         | Hard - 25
 
 

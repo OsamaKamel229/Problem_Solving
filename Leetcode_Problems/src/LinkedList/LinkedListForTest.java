@@ -4,16 +4,16 @@ public class LinkedListForTest {
     private Node head;
 
     public LinkedListForTest(){
-        Node node1 = new Node("A");
-        Node node2 = new Node("B");
-        Node node3 = new Node("C");
-        Node node4 = new Node("D");
-        Node node5 = new Node("E");
-        Node node6 = new Node("F");
-        Node node7 = new Node("G");
-        Node node8 = new Node("H");
-        Node node9 = new Node("I");
-        Node node10 = new Node("J");
+        Node<String> node1 = new Node("A");
+        Node<String> node2 = new Node("B");
+        Node<String> node3 = new Node("C");
+        Node<String> node4 = new Node("D");
+        Node<String> node5 = new Node("E");
+        Node<String> node6 = new Node("F");
+        Node<String> node7 = new Node("G");
+        Node<String> node8 = new Node("H");
+        Node<String> node9 = new Node("I");
+        Node<String> node10 = new Node("J");
 
         node1.setNext(node2);
         node2.setNext(node3);
