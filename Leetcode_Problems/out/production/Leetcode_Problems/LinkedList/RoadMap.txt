@@ -1,0 +1,43 @@
+
+  How to prepare LinkedList ?
+
+  LinkedList Topics:
+
+    0- define Node Class, LinkedList Class.
+       - create Generic class Node.                                               | look at Class Node in LinkedList package
+       - create Generic class LinkedList.                                         | look at LinkedListForTest Class in LinkedList package
+
+
+    1- Create Linked List from Array.
+       - create Generic LinkedList object from Generic Array object.              | look at class Create_LinkedList_From_Array
+
+
+    2- Reverse LinkedList:
+       - Reverse linkedList.
+            1- reverse complete LinkedList.                                       | Leetcode - 206      Easy        (Common)
+       - Reverse SubList in LinkedList.
+            1- reverse part of LinkedList based on the index range of the node.   | Leetcode - 92       Medium      (Common)
+            2- reverse part of LinkedList based on the value range of the node.   | Leetcode - Custom   Medium      (Follow Up)
+       - Reverse K-Numbers of Sublist in LinkedList.
+            1- Reverse Nodes in k-Group                                           | Leetcode - 25       Hard        (Very Common)
+            2- Reverse Nodes in Even Length Groups.                               | Leetcode - 2074     Hard        (Rare)
+       - Reverse Immutable Linked List.
+            1- Print Immutable Linked List in Reverse                             | Leetcode - 1265     Medium      (Rare)
+
+
+    3- Swap Nodes in LinkedList.
+       - Swap adjacent nodes.
+            1- swap every two nodes (pairs) in linkedList.                        | Leetcode - 24       Medium      (Common)
+       - Swap not adjacent nodes.
+            1- Swapping Nodes in a Linked List (swap values)                      | Leetcode - 1721     Medium      (Common)
+            2- Swapping Nodes in a Linked List (swap nodes)                       | Leetcode - Custom   Medium      (Follow Up)
+
+
+
+
+
+
+
+
+
+   9-

@@ -3,7 +3,7 @@ package LinkedList._2_ReverseLinkedList;
 import LinkedList.LinkedListForTest;
 import LinkedList.Node;
 
-public class _4_Reverse_Nodes_in_k_Group_25_Hard_Optimized {
+public class _7_Reverse_Nodes_in_k_Group_25_Hard_Optimized {
 
     public <T> Node<T> reverseNodesInKGroup(Node<T> head, int k) {
         if (head == null || head.getNext() == null || k == 1) return head;
@@ -45,7 +45,7 @@ public class _4_Reverse_Nodes_in_k_Group_25_Hard_Optimized {
 
     public static void main(String[] args) {
         LinkedListForTest linkedListForTest = new LinkedListForTest();
-        _4_Reverse_Nodes_in_k_Group_25_Hard_Optimized obj = new _4_Reverse_Nodes_in_k_Group_25_Hard_Optimized();
+        _7_Reverse_Nodes_in_k_Group_25_Hard_Optimized obj = new _7_Reverse_Nodes_in_k_Group_25_Hard_Optimized();
         Node<String> head = obj.reverseNodesInKGroup(linkedListForTest.getHead(), 3);
         System.out.println(head);
     }

@@ -2,7 +2,6 @@ package LinkedList._2_ReverseLinkedList;
 
 import LinkedList.LinkedListForTest;
 import LinkedList.Node;
-import LinkedList._1_CreateLinkedListFromArray.Create_LinkedList_From_Array;
 
 public class _2_ReverseLinkedList_II_Leetcode_92_Medium {
 
