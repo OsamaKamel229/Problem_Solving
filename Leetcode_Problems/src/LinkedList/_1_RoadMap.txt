@@ -28,7 +28,7 @@
     3- Swap Nodes in LinkedList.
        - Swap adjacent nodes.
             1- swap every two nodes (pairs) in linkedList.                        | Leetcode - 24       Medium      (Common)
-       - Swap not adjacent nodes.
+       - Swap non adjacent nodes.
             1- Swapping Nodes in a Linked List (swap values)                      | Leetcode - 1721     Medium      (Common)
             2- Swapping Nodes in a Linked List (swap nodes)                       | Leetcode - Custom   Medium      (Follow Up)
 
