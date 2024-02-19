@@ -1,0 +1,47 @@
+Most Common Asked Question Related To LinkedList.
+
+ 1- Design LRU.                                              |  Leetcode 146.  |  H   |  (Very Common)
+ 4- Design LFU.                                              |  Leetcode 460.  |  H   |  (Very Common)
+ 8- Design HashMap.                                          |  Leetcode 706.  |  H   |  (Very Common)
+ 9- Design Max Stack.                                        |  Leetcode 716.  |  H   |  (Very Common)
+18- Design Browser History.                                  |  Leetcode 1472. |  H   |  (Very Common)
+37- design LinkedList.                                       |  Leetcode 707.  |  M   |  (Very Common)
+20- Design Circular_Queue.                                   |  Leetcode 622.  |  H   |  (Very Common)
+12- All O`one Data Structure.                                |  Leetcode 432.  |  H   |  (Very Common)
+32- Design Twitter.                                          |  Leetcode 335.  |  H   |  (Very Common)
+33- Design HashSet.                                          |  Leetcode 705.  |  H   |  (Common)
+34- Design Phone Direction.                                  |  Leetcode 379.  |  H   |  (Common)
+19- Design Text Editor.                                      |  Leetcode 2296. |  H   |  (Common Salesforce)
+
+ 3- Merge Two Sorted Lists                                   |  Leetcode 21.   |  E   |  (Very Common)
+ 5- Merge k Sorted Lists                                     |  Leetcode 23.   |  M   |  (Very Common)
+
+ 7- reverse complete LinkedList.                             |  Leetcode 206.  |  E   |  (Very Common)
+16- reverse part of LinkedList (based on the index)          |  Leetcode 92.   |  E   |  (Very Common)
+11- Reverse Nodes in k-Group                                 |  Leetcode 25.   |  H   |  (Very Common)
+21- Swap nodes in pairs (adjacent nodes).                    |  Leetcode 24.   |  M   |  (Very Common)
+38- Swapping Nodes (non-adjacent nodes)(swap values)         |  Leetcode 1721. |  M   |  (Very Common)
+
+10- Convert Binary Search Tree to Sorted Doubly Linked List  |  Leetcode 426.  |  M   |  (Very Common)
+36- Convert Sorted List to Binary Search Tree                |  Leetcode 109.  |  M   |  (Common)
+
+13- Palindrome Linked List                                   |  Leetcode 234.  |  E   |  (Very Common)
+35- Linked List Cycle II                                     |  Leetcode 142.  |  E   |  (Very Common)
+23- Linked List Cycle                                        |  Leetcode 141.  |  E   |  (Very Common)
+24- Middle of the Linked List                                |  Leetcode 876.  |  E   |  (Very Common)
+17- Reorder List                                             |  Leetcode 143.  |  M   |  (Very Common)
+
+31- Remove Duplicates from Sorted List II                    |  Leetcode 82.   |  M   |  (Very Common)
+26- Remove Duplicates from Sorted List                       |  Leetcode 83.   |  M   |  (Very Common)
+
+30- Flatten Binary Tree to Linked List                       |  Leetcode 114.  |  M   |  (Common)
+14- Flatten a Multilevel Doubly Linked List                  |  Leetcode 430.  |  M   |  (Very Common Bloomberg)
+
+ 2- Add Two Numbers                                          |  Leetcode 2.    |  E   |  (Very Common)
+ 6- Copy List with Random Pointer                            |  Leetcode 138.  |  M   |  (Very Common)
+15- Remove Nth Node From End of List                         |  Leetcode 19.   |  M   |  (Very Common)
+22- Populating Next Right Pointers in Each Node              |  Leetcode 116.  |  M   |  (Very Common)
+25- Split Linked List in Parts                               |  Leetcode 725.  |  M   |  (Common Amazon)
+27- Sort List                                                |  Leetcode 148.  |  M   |  (Very Common)
+28- Rotate List                                              |  Leetcode 61.   |  M   |  (Very Common)
+29- Odd Even Linked List                                     |  Leetcode 328.  |  M   |  (Very Common)

@@ -1,0 +1,4 @@
+package LinkedList._3_Data_Structure_Using_LinkedList;
+
+public class _8_Design_Browser_History_Leetcode_1472_Medium {
+}

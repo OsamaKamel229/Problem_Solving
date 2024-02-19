@@ -1,0 +1,4 @@
+package LinkedList._3_Data_Structure_Using_LinkedList;
+
+public class _6_Design_Front_Middle_Back_Queue_Leetcode_1670_Medium {
+}

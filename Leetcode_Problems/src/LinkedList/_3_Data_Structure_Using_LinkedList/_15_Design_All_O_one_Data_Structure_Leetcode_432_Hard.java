@@ -1,0 +1,4 @@
+package LinkedList._3_Data_Structure_Using_LinkedList;
+
+public class _15_Design_All_O_one_Data_Structure_Leetcode_432_Hard {
+}

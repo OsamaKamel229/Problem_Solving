@@ -1,5 +1,10 @@
    Created By Osama Kamel.
 
+    - define Node Class, LinkedList Class, LinkedList for Testing: -
+       - create Generic class Node.
+       - create Generic class LinkedList.
+       - create Generic LinkedList from Generic Array object.
+   ---------------------------------------------------------------------------------------------------------------------
     What is Node?
 
     Node: is the smallest unit (Object) to build a LinkedList.
@@ -15,10 +20,9 @@
       |       |     |
     nodeObj  val   pointerNextNode
 
-    Note: Check The Class Node in this package.
+    Note: Check The Class Node in this package. | Class Node in LinkedList package
 
     --------------------------------------------------------------------------------------------------------------------
-
     What is LinkedList Data Structure?
 
     LinkedList: it is a chain of Nodes. if I have the first Node in this chain I can access all other nodes.
@@ -43,7 +47,7 @@
     3- once we have the head pointer of the LinkedList (a pointer to the first Node in this LinkedList)
        we can start traversing this LinkedList to preform any business logic.
 
+    | LinkedListForTest Class in LinkedList package
     --------------------------------------------------------------------------------------------------------------------
-
 
 

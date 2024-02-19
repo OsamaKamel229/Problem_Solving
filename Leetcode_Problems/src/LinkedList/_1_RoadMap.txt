@@ -1,43 +1,87 @@
+  How to prepare LinkedList By Topic from Leetcode?
 
-  How to prepare LinkedList ?
+    1- design LinkedList.                                           |  Leetcode 707.  |     (Very Common)
 
-  LinkedList Topics:
+    2- Reverse LinkedList: -
+        1- reverse complete LinkedList.                             |  Leetcode 206.  |     (Common)
+        2- reverse part of LinkedList (based on the index)          |  Leetcode 92.   |     (Common)
+        3- reverse part of LinkedList (based on the value)          |     Custom      |     (Follow Up)
+        4- Reverse Nodes in k-Group                                 |  Leetcode 25.   |     (Very Common)
+        5- Reverse Nodes in Even Length Groups.                     |  Leetcode 2074. |     (Rare)
 
-    0- define Node Class, LinkedList Class.
-       - create Generic class Node.                                               | look at Class Node in LinkedList package
-       - create Generic class LinkedList.                                         | look at LinkedListForTest Class in LinkedList package
+    3- Swap nodes in LinkedList: -
+        1- Swap nodes in pairs (adjacent nodes).                    |  Leetcode 24.   |     (Very Common)
+        2- Swapping Nodes (non-adjacent nodes)(swap values)         |  Leetcode 1721. |     (Very Common)
+        3- Swapping Nodes (non-adjacent nodes)(swap nodes)          |     Custom      |     (Follow Up)
+
+    4- Merge LinkedList: -
+        1- Merge Two Sorted Lists                                   |  Leetcode 21.   |     (Very Common)
+        2- Merge k Sorted Lists                                     |  Leetcode 23.   |     (Very Common)
+        3- Merge In Between Linked Lists                            |  Leetcode 1669. |     (Rare)
+        4- Merge Nodes in Between Zeros                             |  Leetcode 2181. |     (Very Rare MS)
+
+    5- Remove and Delete nodes From LinkedList: -
+        1- Remove Duplicates from Sorted List                       |  Leetcode 83.   |     (Very Common)
+        2- Remove Duplicates from Sorted List II                    |  Leetcode 82.   |     (Very Common)
+        3- Remove Nth Node From End of List                         |  Leetcode 19.   |     (Very Common)
+        4- Remove Linked List Elements                              |  Leetcode 203.  |     (Common)
+        5- Remove Nodes From Linked List                            |  Leetcode 2487. |     (Rare)
+        6- Remove Zero Sum Consecutive Nodes from Linked List       |  Leetcode 1171. |     (Common)
+        7- Remove Duplicates From an Unsorted Linked List           |  Leetcode 1836. |     (Common)
+        8- Delete the Middle Node of a Linked List.                 |  Leetcode 2095. |     (Common)
+        9- Delete Node in a Linked List.                            |  Leetcode 237.  |     (Common)
+       10- Delete N Nodes After M Nodes of a Linked List            |  Leetcode 1474. |     (Rare)
+
+    5- Add, Insert and Insertion Sort in LinkedList: -
+        1- Add Two Numbers                                          |  Leetcode 2.    |     (Very Common)
+        2- Add Two Numbers II                                       |  Leetcode 445.  |     (Common)
+        3- Insert into a Sorted Circular Linked List                |  Leetcode 708.  |     (Rare Meta)
+        4- Insert The Greatest Common Divisors in Linked List       |  Leetcode 2807. |     (Very Rare)
+        5- Insertion Sort List                                      |  Leetcode 147.  |     (Rare Meta)
 
 
-    1- Create Linked List from Array.
-       - create Generic LinkedList object from Generic Array object.              | look at class Create_LinkedList_From_Array
+    9- Design Data Structure Using LinkedList: -
+        1- Design LRU.                                              |  Leetcode 146.  |     (Very Common)
+        2- Design LFU.                                              |  Leetcode 460.  |     (Very Common)
+        3- Design HashMap.                                          |  Leetcode 706.  |     (Very Common)
+        4- Design Circular_Queue.                                   |  Leetcode 622.  |     (Very Common)
+        5- Design Browser History.                                  |  Leetcode 1472. |     (Very Common)
+        6- Design Max Stack.                                        |  Leetcode 716.  |     (Very Common)
+        7- Design Twitter.                                          |  Leetcode 335.  |     (Very Common)
+        8- Design HashSet.                                          |  Leetcode 705.  |     (Common)
+        9- Design Circular_Deque.                                   |  Leetcode 641.  |     (Rare)
+       10- Design Front Middle Back Queue.                          |  Leetcode 1670. |     (Rare)
+       11- Design Phone Direction.                                  |  Leetcode 379.  |     (Common)
+       12- Design Skip list.                                        |  Leetcode 1206. |     (Rare)
+       13- Design Text Editor.                                      |  Leetcode 2296. |     (Common)
+       14- All O`one Data Structure.                                |  Leetcode 432.  |     (Common)
+
+   10- Fast and Slow Pointers: -
+        1- Linked List Cycle                                        |  Leetcode 141.  |     (Very Common)
+        2- Linked List Cycle II                                     |  Leetcode 142.  |     (Very Common)
+        3- Reorder List                                             |  Leetcode 143.  |     (Very Common)
+        4- Palindrome Linked List                                   |  Leetcode 234.  |     (Very Common)
+        5- Middle of the Linked List                                |  Leetcode 876.  |     (Very Common)
+        6- Maximum Twin Sum of a Linked List                        |  Leetcode 2130. |     (Rare)
+        7- Split a Circular Linked List                             |  Leetcode 2674. |     (Rare)
+
+     11 - Various ideas: -
+        1- Sort List                                                |  Leetcode 148.  |     (Very Common)
+        2- Copy List with Random Pointer                            |  Leetcode 138.  |     (Very Common)
+        3- Populating Next Right Pointers in Each Node              |  Leetcode 116.  |     (Very Common)
+        4- Rotate List                                              |  Leetcode 61.   |     (Very Common)
+        5- Odd Even Linked List                                     |  Leetcode 328.  |     (Very Common)
+        6- Convert Binary Search Tree to Sorted Doubly Linked List  |  Leetcode 426.  |     (Common)
+        7- Convert Sorted List to Binary Search Tree                |  Leetcode 109.  |     (Common)
+        8- Flatten Binary Tree to Linked List                       |  Leetcode 114.  |     (Common)
+        9- Split Linked List in Parts                               |  Leetcode 725.  |     (Common Amazon)
+        9- Flatten a Multilevel Doubly Linked List                  |  Leetcode 430.  |     (Common)
+       10- Intersection of Two Linked Lists                         |  Leetcode 160.  |     (Common)
+       11- Convert Binary Number in a Linked List to Integer        |  Leetcode 1290. |     (Common)
+       12- Partition List                                           |  Leetcode 86.   |     (Common)
+       13- Steps to Make Array Non-decreasing                       |  Leetcode 2289. |     (Rare Amazon)
+       14- Print Immutable Linked List in Reverse                   |  Leetcode 1265. |     (Rare)
 
 
-    2- Reverse LinkedList:
-       - Reverse linkedList.
-            1- reverse complete LinkedList.                                       | Leetcode - 206      Easy        (Common)
-       - Reverse SubList in LinkedList.
-            1- reverse part of LinkedList based on the index range of the node.   | Leetcode - 92       Medium      (Common)
-            2- reverse part of LinkedList based on the value range of the node.   | Leetcode - Custom   Medium      (Follow Up)
-       - Reverse K-Numbers of Sublist in LinkedList.
-            1- Reverse Nodes in k-Group                                           | Leetcode - 25       Hard        (Very Common)
-            2- Reverse Nodes in Even Length Groups.                               | Leetcode - 2074     Hard        (Rare)
-       - Reverse Immutable Linked List.
-            1- Print Immutable Linked List in Reverse                             | Leetcode - 1265     Medium      (Rare)
 
 
-    3- Swap Nodes in LinkedList.
-       - Swap adjacent nodes.
-            1- swap every two nodes (pairs) in linkedList.                        | Leetcode - 24       Medium      (Common)
-       - Swap non adjacent nodes.
-            1- Swapping Nodes in a Linked List (swap values)                      | Leetcode - 1721     Medium      (Common)
-            2- Swapping Nodes in a Linked List (swap nodes)                       | Leetcode - Custom   Medium      (Follow Up)
-
-
-
-
-
-
-
-
-
-   9-
