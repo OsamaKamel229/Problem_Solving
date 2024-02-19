@@ -39,10 +39,6 @@ Zsrc/LinkedList/_4_Fast_And_Slow_Pointers/_4_Palindrome_LinkedList_Leetcode_234_
 ]src/LinkedList/_4_Fast_And_Slow_Pointers/_5_Middle_of_the_LinkedList_Leetcode_876_Medium.java,2\4\246bcdfe1a906c89ee3c63ef2823a1f0bfe1cd62
 –
 fsrc/LinkedList/_4_Fast_And_Slow_Pointers/_6_Maximum_Twin_Sum_of_a_LinkedList_Leetcode_2130_Medium.java,3\1\31298085f81274168f83f78202e0005c4353495b
-f
-6src/LinkedList/_2_What is Node and What is Linekd List,a\b\ab20667de5d806646e1dec541e30162379342b96
-M
-src/LinkedList/_1_RoadMap.txt,6\4\64eb0157a8bf670f84cffcc8a6b627acded8da15
 D
 src/Array/To Be Done,3\4\346329a6cb0a0a4b0cd840679e08b94ebb946b62
 H
